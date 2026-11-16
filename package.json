@@ -1,0 +1,39 @@
+{
+  "name": "meridian-race-report",
+  "version": "1.0.0",
+  "description": "Meridian Marathon race reports for Hyper Elements: a data-driven Document + Canvas kit that turns raw timing splits into a personal race report PDF and a finisher share card.",
+  "main": "index.js",
+  "scripts": {
+    "render": "tsx render.tsx",
+    "check": "hyper-elements check src/report.tsx src/card.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/archivo": "^5.3.0",
+    "@fontsource/space-mono": "^5.3.0",
+    "@hyper-elements/email-clients": "^0.4.16",
+    "@hyper-elements/react": "^0.4.5",
+    "@react-pdf/renderer": "^4.9.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-pdf": "^11.1.0",
+    "satori": "^0.33.5"
+  },
+  "devDependencies": {
+    "@hyper-elements/cli": "^0.2.9",
+    "@types/node": "^26.6.6",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright-core": "^1.65.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module"
+}
